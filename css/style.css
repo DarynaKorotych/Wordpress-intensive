@@ -4,6 +4,9 @@
   padding: 0;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
 .container {
   width: 1140px;
   margin: 0 auto;
@@ -24,7 +27,7 @@
 
 .logo .logo_text {
   color: #ffffff;
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -39,7 +42,7 @@ h1 {
 }
 
 .title {
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
   font-style: normal;
   font-weight: 900;
   font-size: 41px;
@@ -54,7 +57,7 @@ h2.title {
 }
 
 .simple .title_big {
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
   font-style: normal;
   font-weight: 900;
   font-size: 80px;
@@ -68,7 +71,7 @@ h2.title {
 .promo .promo_text {
   padding: 0 13px;
   margin-top: 23px;
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
   font-style: normal;
   font-weight: 300;
   font-size: 21px;
@@ -78,7 +81,7 @@ h2.title {
 }
 
 .promo .promo_text span {
-  font-family: Roboto;
+  /* font-family: "Roboto", sans-serif; */
   font-style: normal;
   font-weight: bold;
   color: #f9bf3b;
@@ -109,7 +112,7 @@ h2.title {
 }
 
 .more .more_text {
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
   font-style: normal;
   font-weight: 100;
   font-size: 15px;
@@ -118,8 +121,62 @@ h2.title {
   text-align: center;
 }
 
-.more .more_img{
-    display: block;
-    margin: 0 auto;
-    margin-top: 13px;
+.more .more_img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 13px;
+}
+/* =========================================== */
+.waiting {
+  height: 607px;
+  background: #efefef;
+  padding: 88px 0 75px 0;
+}
+
+.waiting .waiting_header {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #252525;
+}
+
+.waiting .waiting_divider {
+  width: 220px;
+  height: 7px;
+  background: #f9bf3b;
+  margin: 0 auto;
+  margin-top: 18px;
+}
+
+.waiting .waiting_subheader {
+  margin-top: 18px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 23px;
+  /* line-height: 20px; */
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.waiting .waiting_wrapper {
+  margin-top: 45px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 48px;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+  width: 342px;
+}
+
+.waiting .waiting_wrapper .waiting_descr {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  text-align: center;
+  color: #4a4a4a;
 }
