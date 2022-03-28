@@ -88,7 +88,8 @@ h2.title {
   color: #f9bf3b;
 }
 
-.promo .promo_btn {
+.promo .promo_btn,
+.gift .gift_btn {
   display: block;
   margin: 0 auto;
   margin-top: 72px;
@@ -134,7 +135,8 @@ h2.title {
   padding: 88px 0 75px 0;
 }
 
-.waiting .waiting_header {
+.waiting .waiting_header,
+.finish .finish_header {
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
@@ -144,7 +146,12 @@ h2.title {
   color: #252525;
 }
 
-.waiting .waiting_divider {
+.finish .finish_header {
+  color: #efefef;
+}
+
+.waiting .waiting_divider,
+.finish .finish_divider {
   width: 220px;
   height: 7px;
   background: #f9bf3b;
@@ -184,7 +191,8 @@ h2.title {
   width: 100%;
 }
 
-.waiting .waiting_wrapper .waiting_descr {
+.waiting .waiting_wrapper .waiting_descr,
+.finish .finish_wrapper .finish_descr {
   font-style: normal;
   font-weight: 300;
   font-size: 15px;
@@ -218,16 +226,57 @@ h2.title {
   font-style: normal;
   font-weight: 300;
   font-size: 17px;
-  color: #4A4A4A;
+  color: #4a4a4a;
 }
 
-.optimization .optimization_text  span{
+.optimization .optimization_text span {
   font-weight: 700;
 }
 
-.optimization .optimization_img{
+.optimization .optimization_img {
   position: absolute;
   top: -61px;
   left: -240px;
   z-index: -1;
 }
+
+/* ==================================== */
+.finish {
+  min-height: 447px;
+  padding: 86px 0 66px 0;
+  background: url("../img/bg/second_bg.png") center center/cover no-repeat;
+}
+
+.finish .finish_wrapper {
+  margin-top: 39px;
+  /* display: flex;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.finish .finish_wrapper .finish_item {
+  width: 234px;
+}
+
+.finish .finish_wrapper .finish_item .finish_round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 118px;
+  height: 118px;
+  background: #b4e2ff;
+  border-radius: 100%;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr {
+  margin-top: 24px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  color: #efefef;
+}
+
+/* =============================== */
