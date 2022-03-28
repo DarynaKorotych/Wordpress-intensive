@@ -285,7 +285,7 @@ h2.title {
   padding: 88px 0 88px 0;
 }
 
-.gift_pic .gift_img{
+.gift_pic .gift_img {
   display: block;
   margin: 0 auto;
 }
@@ -302,3 +302,46 @@ h2.title {
   color: #252525;
 }
 /* ========================= */
+.first {
+  min-height: 511px;
+  padding: 89px 0 52px 0;
+}
+
+.first_pic .first_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.first .first_web {
+  margin-top: 36px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #252525;
+}
+
+.first .first_date {
+  margin-top: 30px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #299cbd;
+}
+
+.first .first_text{
+  margin-top: 24px;
+  font-style: normal;
+font-weight: 400;
+font-size: 23px;
+line-height: 20px;
+text-align: center;
+color: #4A4A4A;
+}
