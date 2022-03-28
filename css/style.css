@@ -280,3 +280,25 @@ h2.title {
 }
 
 /* =============================== */
+.gift {
+  background-color: #efefef;
+  padding: 88px 0 88px 0;
+}
+
+.gift_pic .gift_img{
+  display: block;
+  margin: 0 auto;
+}
+
+.gift_text {
+  margin-top: 45px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 43px;
+  align-items: center;
+  text-align: center;
+
+  color: #252525;
+}
+/* ========================= */
