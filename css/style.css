@@ -336,12 +336,50 @@ h2.title {
   color: #299cbd;
 }
 
-.first .first_text{
+.first .first_text {
   margin-top: 24px;
   font-style: normal;
-font-weight: 400;
-font-size: 23px;
-line-height: 20px;
-text-align: center;
-color: #4A4A4A;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 20px;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+/* ============================ */
+footer {
+  min-height: 169px;
+  background-color: #1a1a1a;
+  padding: 57px 0 69px 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #888888;
+}
+
+.footer_info {
+  text-align: center;
+}
+
+.footer_support a {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  text-decoration-line: underline;
+}
+
+.footer_phone a {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.footer_support a:first-child::before {
+  content: "";
+}
+.footer_support a::before {
+  content: "|";
 }
