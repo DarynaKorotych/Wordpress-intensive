@@ -1,0 +1,24 @@
+{
+  "name": "wev_develop_udemy_petrychenko",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node script.js",
+    "test": "node js/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarynaKorotych/Wordpress-intensive.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarynaKorotych/Wordpress-intensive/issues"
+  },
+  "homepage": "https://github.com/DarynaKorotych/Wordpress-intensive#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
