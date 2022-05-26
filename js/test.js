@@ -1,5 +1,5 @@
 'use strict';
-let numberOfFilms = +prompt('Сколько фильмов Вы уже посмотрели?', '');
+/* let numberOfFilms = +prompt('Сколько фильмов Вы уже посмотрели?', '');
 
 let personalMovieDB = {
     count: numberOfFilms,
@@ -18,6 +18,10 @@ personalMovieDB.movies[a] = b;
 personalMovieDB.movies[c] = d;
 
 console.log(personalMovieDB);
+ */
+
+
+
 
 
 
@@ -72,6 +76,21 @@ console.log(decr--); */
 /* console.log(incr);
 console.log(decr); */
 // ==========================================
+const num = 50;
 
+switch (num) {
+    case 49:
+        console.log('Wrong');
+        break;
+    case 100:
+        console.log('Wrong');
+        break;
+    case 50:
+        console.log('True');
+        break;
+    default:
+        console.log('Not this time');
+        break;
+}
 
 
