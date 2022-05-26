@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-body {
+html {
   font-family: "Roboto", sans-serif;
 }
 .container {
@@ -28,7 +28,6 @@ body {
 
 .logo .logo_text {
   color: #ffffff;
-  /* font-family: "Roboto", sans-serif; */
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -43,7 +42,6 @@ h1 {
 }
 
 .title {
-  /* font-family: "Roboto", sans-serif; */
   font-style: normal;
   font-weight: 900;
   font-size: 41px;
@@ -58,7 +56,6 @@ h2.title {
 }
 
 .simple .title_big {
-  /* font-family: "Roboto", sans-serif; */
   font-style: normal;
   font-weight: 900;
   font-size: 80px;
@@ -72,7 +69,6 @@ h2.title {
 .promo .promo_text {
   padding: 0 13px;
   margin-top: 23px;
-  /* font-family: "Roboto", sans-serif; */
   font-style: normal;
   font-weight: 300;
   font-size: 21px;
@@ -82,9 +78,8 @@ h2.title {
 }
 
 .promo .promo_text span {
-  /* font-family: "Roboto", sans-serif; */
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   color: #f9bf3b;
 }
 
@@ -100,7 +95,7 @@ h2.title {
 
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 21px;
   line-height: 24px;
   text-transform: uppercase;
@@ -114,7 +109,6 @@ h2.title {
 }
 
 .more .more_text {
-  /* font-family: "Roboto", sans-serif; */
   font-style: normal;
   font-weight: 100;
   font-size: 15px;
@@ -138,7 +132,7 @@ h2.title {
 .waiting .waiting_header,
 .finish .finish_header {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 30px;
   line-height: 30px;
   text-align: center;
@@ -162,7 +156,7 @@ h2.title {
 .waiting .waiting_subheader {
   margin-top: 18px;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 23px;
   /* line-height: 20px; */
   text-align: center;
@@ -175,7 +169,7 @@ h2.title {
   grid-column-gap: 48px;
   margin-top: 45px;
 } */
-
+/* OR */
 .waiting .waiting_wrapper {
   display: flex;
   justify-content: space-between;
